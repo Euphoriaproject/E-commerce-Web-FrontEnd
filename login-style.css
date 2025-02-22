@@ -177,6 +177,7 @@ button {
     background: #FD7600;
     color: white;
     border: none;
+    font-weight: 600;
     margin-top: 20px;
     border-radius: 6px;
     cursor: pointer;
