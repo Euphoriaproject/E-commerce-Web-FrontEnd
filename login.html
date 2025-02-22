@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>ZawadiBasket</title>
+        <link rel="icon" href="#" type="image/x-icon"/>
+        <link rel="stylesheet" href="login-style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <!--Top Header-->
+    <section class="top-header">
+        <div class="container">
+            <div class="left-section">
+            </div>
+            <div class="right-section">
+                <nav>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">GB<img src="/asset/uk.webp" alt="UK Flag"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!--Header-->
+    <section class="header">
+        <div class="navbar">
+            <a href="index.html"><img src="/asset/ZawadiBasket.png" class="logo"></a>
+                <div class="search-container">
+                    <input type="text" placeholder="Search for category, item or brand" class="search-box" >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            <nav>
+                <ul class="navi">
+                    <li><a href="login.html">Login <span class="or">/</span> Register</a></li>
+                </ul> 
+            </nav>
+        </div>
+    </section>
+
+    <!--Navigation-->
+    <section class="section">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__links">
+                    <a href="index.html" class="nav__link">
+                        <i class="fa-solid fa-house"></i>Home</a>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!--Form-->
+    <section class="box-container">
+
+        <!-- Login Form -->
+        <div class="form-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" placeholder="Username or Email" required>
+                <input type="password" placeholder="Password" required>
+                <div class="remember">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <button type="submit">Log In</button>
+                <a href="#">Forgot your password?</a>
+            </form>
+        </div>
+
+        <!-- Register Form -->
+        <div class="form-container1">
+            <h2>Register</h2>
+            <form id="register-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <div class="gender">
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Man</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Woman</label>
+                </div>
+                <button type="submit">Register</button>
+                <a href="#">Already registered?</a>
+            </form>
+        </div>
+
+</body>
+</html>

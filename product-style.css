@@ -128,7 +128,7 @@ nav a {
 .nav__links {
     display: flex;
     gap: 32px;
-    margin: 0px 0px;
+    margin: 0px 180px;
 }
 
 .nav__link {
