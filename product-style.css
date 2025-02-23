@@ -269,3 +269,12 @@ color: #fd7600;
 font-size: 18px;
 font-weight: 600;
 }
+.watermark {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    text-align: right;
+    font-size: 6px;
+    font-weight: 300;
+    color: rgba(104, 104, 104, 0.315);
+}
